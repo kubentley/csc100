@@ -1,0 +1,61 @@
+/* Created by Kurt Bentley on 06/02/2024
+   File: style.css */
+
+   /* CSS Reset to normalize default styles across browsers */
+body, h1, h2, h3, p, ul, ol, li, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Make images responsive */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Remove underlines from links */
+a {
+    text-decoration: none;
+}
+
+/* High contrast for readability */
+body {
+    background-color: #ffffff;
+    color: #1f1f1f;
+}
+
+
+/* Styles for header, nav, main, and footer */
+header {
+    background-color: #00fe591c;
+    color: #000000;
+    padding: 10px;
+}
+
+/* Style for headers */
+h1, h2, h3 {
+    font-family: 'roboto serif', open sans;
+}
+
+
+nav {
+    background-color: #00ff4414;
+    color: #fff;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #00ff4010;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Styles for navigation */
+nav ul {
+    list-style: none;
+}
